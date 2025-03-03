@@ -1,0 +1,156 @@
+/* Author : Afra N K
+   Date : 25/02/2025  */
+
+
+   /* google font */
+
+   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lexend+Deca:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+     
+
+
+    .lexend-deca-uniquifier {
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+
+    /* style to reduce height for nav */
+   
+
+   .navbar-custom {
+    padding: 5px 15px;
+    height: 45px;
+   }
+
+   .logo {
+    height: 30px;
+   }
+
+   /* style to reduce heigt for footer */
+
+
+   .footer {
+    padding: 5px 0;
+    height: 45px;
+    
+    font-size: 14px;
+}
+
+footer p{
+    color: #9CA3AF ;
+}
+
+/* Change to preferred color for list item*/
+.navbar-nav .nav-link {
+    color: #9CA3AF !important; 
+}
+
+
+/* Navbar with Dark Background & Visible White Hamburger */
+
+.navbar-toggler {
+    border: 2px solid #9CA3AF; /* White border */
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%); /* White hamburger icon */
+}
+
+
+/* Removed Hover Effect from Navbar Toggler */
+
+.navbar-toggler:focus, 
+.navbar-toggler:hover {
+    outline: none; /* Remove outline */
+    box-shadow: none; /* Remove Bootstrap's hover shadow */
+    background-color: transparent; /* Keep the background unchanged */
+}
+
+
+/* Change Hamburger Icon Size */
+
+.navbar-toggler-icon {
+    width: 20px;  /* Change the width */
+    height: 20px; /* Change the height */
+}
+
+
+/* different color for the active link */
+.navbar-nav .nav-link.active {
+    color: #FACC15 !important;
+    font-weight: bold;
+}
+
+
+/* styles for home page */
+#hero h2{
+
+    font-size: 22px;
+    color: #FACC15;
+
+
+}
+
+#hero h1{
+    font-size: 42px;
+    color: #F3F4F6
+};
+
+#hero p{
+    color:red;
+}  
+
+#hero{
+    background-color: #111827;
+}
+
+.hero-img {
+    width: 70%; /* Adjust the percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/* styles for about page */
+
+.frame {
+    border: 16px solid #EAB308; /* Yellow border */
+    padding: 20px;
+    width: 360px; 
+    Height:362px;
+    margin: 20px auto; /* Center the frame */
+    border-radius: 24px; /* Curved edges */
+    padding: 20px;
+    position: relative;
+    }   
+
+.about-image {
+        position: absolute;
+        width: 350px; 
+        height: 350px;
+        object-fit: cover; 
+        border-radius: 10px; 
+        top: -35px;
+        right: -35px;
+    }
+
+    #about{
+        background-color: #111827;
+    }    
+
+
+
+
+
+
+
+
+
+
