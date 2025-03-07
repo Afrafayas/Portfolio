@@ -12,20 +12,20 @@
                 <!-- bg-dark border-bottom border-body navbar-custom" data-bs-theme="dark" -->
             
                 <div class="container-fluid">
-                    <a href="#"><img src="./images/A logo.png" alt="Logo"  height="40" ></a>
+                    <a href="#"><img src="./images/a-logo.png" alt="Logo"  height="40" ></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
 
-                      <div class="collapse navbar-collapse  justify-content-center" id="navbarSupportedContent">
+                      <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
                         
                         <ul class="navbar-nav gap-3 ">
                             <li class="nav-item "> <a href="./index.html" class="nav-link text-white " aria-current="page">Home</a></li>
                             <li class="nav-item"><a href="./about.html" class="nav-link text-white ">About</a></li>
                             <li class="nav-item"><a href="./skills.html" class="nav-link text-white ">Skills</a></li>
                             <li class="nav-item"><a href="./projects.html" class="nav-link text-white ">Projects</a></li>
-                            <li class="nav-item"><a href="./experience.html" class="nav-link text-white ">Experience</a></li>
+                            <!-- <li class="nav-item"><a href="./experience.html" class="nav-link text-white ">Experience</a></li> -->
                             <li class="nav-item"><a href="./contact.html" class="nav-link text-white active ">Contact</a></li>
 
 
@@ -37,12 +37,83 @@
                </nav>
     
         </header>
+        <!-- main starts -->
         <main flex-grow-1>
+
+
+    
+
+
+<!-- Contact Form -->
+<section  id="contact" class="py-5">
+    <div class="container">
+    <h2 class="text-warning text-center py-3"> <span>Contact</span> Us</h2>
+    <form class="bg-light p-4 rounded-3 border border-warning mx-auto py-3" style="max-width: 600px;">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="subject" class="form-label">Subject:</label>
+            <input type="text" class="form-control" id="subject" name="subject" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Sex:</label>
+            <div class="radio-group">
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="male" name="sex" value="male" required>
+                    <label for="male" class="form-check-label">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="female" name="sex" value="female">
+                    <label for="female" class="form-check-label">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="other" name="sex" value="other">
+                    <label for="other" class="form-check-label">Other</label>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-warning w-50 mx-auto d-block py-2">Submit</button>
+    </form>
+
+     <!-- Social Links -->
+
+    <div class="text-center my-4">
+        <a href="https://www.linkedin.com/in/afrafayas/" class="btn btn-outline-primary mx-2" target="_blank">LinkedIn</a>
+        <a href="https://github.com/Afrafayas" class="btn btn-outline-warning mx-2" target="_blank">GitHub</a>
+        <a href="mailto:afrafayask@gmail.com" class="btn btn-outline-success mx-2" target="_blank">Email</a>
+    </div>
+  
+
+    </div>
+
+</section>
+
+   
+
+
+  
+    
+
     
         </main>
         <footer class="bg-dark text-light text-center py-3 mt-auto">
             <div class="container">
-                <p class="mb-1">&copy; 2025 Afra N K. All rights reserved.</p>
+                <p class="mb-1">&copy; 2025 Afra Fayas. All rights reserved.</p>
                 
     
         </footer>

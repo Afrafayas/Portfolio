@@ -21,6 +21,11 @@
         box-sizing: border-box;
     }
 
+    
+
+
+    
+
 
     /* style to reduce height for nav */
    
@@ -101,7 +106,9 @@ footer p{
 
 #hero h1{
     font-size: 42px;
-    color: #F3F4F6
+    color: #F3F4F6;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
 };
 
 #hero p{
@@ -109,12 +116,14 @@ footer p{
 }  
 
 #hero{
-    background-color: #111827;
+    background-color: #1F2937;
 }
 
 .hero-img {
     width: 70%; /* Adjust the percentage as needed */
     height: auto; /* Maintain aspect ratio */
+  
+    
 }
 
 
@@ -143,8 +152,116 @@ footer p{
 
     #about{
         background-color: #111827;
-    }    
+    } 
 
+    #about span{
+        color: #F3F4F6;
+    }
+    
+    
+/* Styles for Skills page */
+
+    #skills{
+        background-color: #1F2937;
+        
+    }
+
+
+    #skills img{
+        height: 80x;
+        width: 80px;
+    }
+
+    #skills .card{
+        background-color: #020617;
+        
+    }
+
+    #skills .card h5{
+        color:#F3F4F6;
+    }
+
+    #skills p{
+        color: #6B7280;
+    }
+
+    #skills span{
+        color: #F3F4F6;
+
+
+    }
+
+    .transition {
+        transition: all 0.3s ease-in-out;
+    }
+
+           /* styles for card */
+    
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .card img {
+        max-width: 80px; 
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .card:hover img {
+        transform: scale(1.1);
+    }
+    
+    
+/* styles for project page */
+
+    .carousel-item img {
+        max-width: 100%; /* Maintain original width */
+        max-height: 500px; /* Adjust height to your requirement */
+        object-fit: cover; /* Crop instead of stretching */
+    }
+
+
+    #projects{
+        background-color: #111827;
+    } 
+
+    #projects span{
+        color: #F3F4F6;
+    }
+
+    .custom-modal {
+        max-width: 600px; /* Adjust modal width */
+      }
+      .carousel img {
+        max-height: 400px; /* Reduc e carousel image height */
+        width: 250;
+        object-fit: cover;
+      }
+
+      /* styles for contact page */
+
+      #contact{
+        background-color:  #1F2937;
+    } 
+
+    #contact span{
+        color: #F3F4F6;
+    }
+
+    #projects p{
+        color: #6B7280;
+    }
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
